@@ -3,7 +3,10 @@ root = tk.Tk ()
 root.title("parsa zare") # the title 
 root.geometry(("200x200")) # display  screen size
 
-messages = ["پس حتما گاوی؟","ایا خری"] #the list of ...
+messages = [
+    "Will you marry me?","Do you love me?","You are a bit all of right, aren't you?","Are you in the mood for fun?"
+,"A romatic dinner at restaurant or a great Netflix and Chill",
+ "Your ex or me?" ] #the list of ...
 counter = 0  # for the numver of the list
 
 def no(): # the function of no
@@ -15,7 +18,7 @@ def no(): # the function of no
 
  
 def yes(): # teh function of yes
-    message_label.config(text="افرین")
+    message_label.config(text="I love you my pretty girlfriend, call me now")
 
  
 message_label = tk.Label(root, text="ایا خری",font = ("vazir bold", 14))
