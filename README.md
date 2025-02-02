@@ -1,5 +1,5 @@
 # fun-with-cousin
-A funny programming with parsa.
+A funny programming with Parsa.
 
 # what is it?
 It's  just a repository of my programing with my cousin at weekend
